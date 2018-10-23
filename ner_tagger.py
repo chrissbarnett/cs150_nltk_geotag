@@ -3,6 +3,19 @@ import json
 
 
 class NERTagger:
+    """
+    Extract Named Entities using NLTK built-in taggers.
+
+    usage:
+    nt = NERTagger()
+    nt.set_text(raw_text=text_string)
+    entities = nt.extract_named_entities()
+
+    or for a text file:
+    nt = NERTagger()
+    nt.set_text(txtfile_path=path_to_text)
+    entities = nt.extract_named_entities()
+    """
     def __init__(self, nltk_dir='./data/nltk'):
         # downloading needed components inline to a specified directory
         nltk.download('averaged_perceptron_tagger', download_dir=nltk_dir)

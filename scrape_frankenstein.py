@@ -11,7 +11,13 @@ from os.path import basename
 
 class FrankensteinScraper:
     """
-    class for scraping Frankenstein from the web
+    class for scraping Frankenstein from the web. Downloads chapter html pages and produces a json object with plain
+    text to hold tags, etc.
+
+    usage:
+    fs = FrankensteinScraper()
+    fs.read_contents()
+    fs.write_chapter_json()
     """
     def __init__(self, target_dir='./data/texts/frankenstein1818',
                  contents_url='https://www.rc.umd.edu/editions/frankenstein/1818_contents'):
@@ -21,7 +27,7 @@ class FrankensteinScraper:
         # table of contents page
         self.contents_url = contents_url
 
-    def read_contents(self):
+    def read_contents(self, volumes=('1818v1', '1818v2', '1818v3')):
         """
         read the table of contents to get links to chapters
         :return:
@@ -30,7 +36,7 @@ class FrankensteinScraper:
         r = requests.get(self.contents_url)
         x = Soup(r.text, 'html.parser')
         a = x.findAll('a')  # get a list of anchor elements
-        volumes = ['1818v1', '1818v2', '1818v3']
+
         index = 0
         for i in a:
             if 'frankenstein' in i.get('href'):

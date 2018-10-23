@@ -6,6 +6,19 @@ import json
 
 
 class StanfordTagger:
+    """
+    Extract Named Entities using Stanford NER and Stanford POS taggers.
+
+    usage:
+    st = StanfordTagger()
+    st.set_text(raw_text=text_string)
+    entities = st.extract_named_entities()
+
+    or for a text file:
+    st = StanfordTagger()
+    st.set_text(txtfile_path=path_to_text)
+    entities = st.extract_named_entities()
+    """
     def __init__(self,
                  ner_model='english.muc.7class.distsim.crf.ser.gz',
                  pos_model='english-bidirectional-distsim.tagger',
