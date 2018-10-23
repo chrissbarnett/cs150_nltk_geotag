@@ -14,6 +14,12 @@
           "Genevese"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "1": {
@@ -28,6 +34,15 @@
           "Lucerne"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [
+          "Beaufort",
+          "Lucerne"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "2": {
@@ -42,6 +57,14 @@
         "organizations": [
           "Reuss"
         ]
+      },
+      "entities_stanford": {
+        "people": [
+          "Reuss"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "3": {
@@ -53,6 +76,14 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Caroline Beaufort"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "4": {
@@ -67,6 +98,17 @@
           "Geneva"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Caroline"
+        ],
+        "places": [
+          "Beaufort",
+          "Geneva"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "5": {
@@ -76,6 +118,12 @@
         "people": [],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "6": {
@@ -91,6 +139,14 @@
           "Reflect"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Elizabeth"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "7": {
@@ -104,6 +160,17 @@
           "Italy"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Elizabeth",
+          "Elizabeth"
+        ],
+        "places": [
+          "Italy"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "8": {
@@ -115,6 +182,16 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Elizabeth Lavenza"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": [
+          "summer"
+        ]
       }
     },
     "9": {
@@ -126,6 +203,14 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [
+          "Elizabeth"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "10": {
@@ -144,6 +229,20 @@
           "St. George"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Henry Clerval",
+          "Robin Hood",
+          "Amadis"
+        ],
+        "places": [
+          "Geneva",
+          "Orlando",
+          "St. George"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "11": {
@@ -158,6 +257,12 @@
           "English"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "12": {
@@ -170,6 +275,16 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Henry Clerval"
+        ],
+        "places": [],
+        "organizations": [
+          "Clerval"
+        ],
+        "dates": []
       }
     },
     "13": {
@@ -179,6 +294,12 @@
         "people": [],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "14": {
@@ -195,6 +316,15 @@
         "organizations": [
           "Agrippa"
         ]
+      },
+      "entities_stanford": {
+        "people": [
+          "Cornelius Agrippa",
+          "Victor"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "15": {
@@ -207,6 +337,12 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "16": {
@@ -221,6 +357,16 @@
         "organizations": [
           "Paracelsus"
         ]
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [
+          "Elizabeth"
+        ],
+        "organizations": [
+          "Paracelsus"
+        ],
+        "dates": []
       }
     },
     "17": {
@@ -234,6 +380,16 @@
           "Geneva"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [
+          "Geneva"
+        ],
+        "organizations": [],
+        "dates": [
+          "eighteenth century"
+        ]
       }
     },
     "18": {
@@ -243,6 +399,14 @@
         "people": [],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [
+          "fidelity"
+        ],
+        "dates": []
       }
     },
     "19": {
@@ -254,6 +418,12 @@
           "Distillation"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "20": {
@@ -263,6 +433,12 @@
         "people": [],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "21": {
@@ -275,6 +451,15 @@
           "Jura"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [
+          "Belrive",
+          "Jura"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "22": {
@@ -284,6 +469,12 @@
         "people": [],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "23": {
@@ -298,6 +489,17 @@
         "organizations": [
           "Paracelsus"
         ]
+      },
+      "entities_stanford": {
+        "people": [
+          "Cornelius Agrippa",
+          "Albertus Magnus"
+        ],
+        "places": [],
+        "organizations": [
+          "Paracelsus"
+        ],
+        "dates": []
       }
     },
     "24": {
@@ -310,6 +512,16 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Buffon"
+        ],
+        "places": [],
+        "organizations": [
+          "Pliny"
+        ],
+        "dates": []
       }
     },
     "25": {
@@ -325,6 +537,12 @@
           "German"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "26": {
@@ -338,6 +556,14 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Elizabeth"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "27": {
@@ -349,6 +575,12 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     }
   },

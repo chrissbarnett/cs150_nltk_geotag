@@ -12,6 +12,12 @@
         "people": [],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "1": {
@@ -32,6 +38,19 @@
         "organizations": [
           "DEAR"
         ]
+      },
+      "entities_stanford": {
+        "people": [
+          "Victor",
+          "Victor"
+        ],
+        "places": [
+          "Henry"
+        ],
+        "organizations": [],
+        "dates": [
+          "last winter"
+        ]
       }
     },
     "2": {
@@ -44,6 +63,16 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Ernest"
+        ],
+        "places": [
+          "Cousin"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "3": {
@@ -66,6 +95,22 @@
         "organizations": [
           "Moritz"
         ]
+      },
+      "entities_stanford": {
+        "people": [
+          "Justine Moritz",
+          "Madame Moritz",
+          "Justine",
+          "M. Moritz",
+          "Justine"
+        ],
+        "places": [
+          "Geneva",
+          "France",
+          "England"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "4": {
@@ -81,6 +126,17 @@
           "Justine"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Justine",
+          "Justine",
+          "Ariosto",
+          "Justine"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "5": {
@@ -93,6 +149,15 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "Justine",
+          "Justine"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "6": {
@@ -113,6 +178,19 @@
           "Roman Catholic",
           "Ingolstadt"
         ]
+      },
+      "entities_stanford": {
+        "people": [
+          "Justine",
+          "Justine"
+        ],
+        "places": [],
+        "organizations": [
+          "Madame Moritz"
+        ],
+        "dates": [
+          "last winter"
+        ]
       }
     },
     "7": {
@@ -125,6 +203,15 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "William",
+          "Louisa Biron"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "8": {
@@ -148,6 +235,27 @@
         "organizations": [
           "Miss Mansfield"
         ]
+      },
+      "entities_stanford": {
+        "people": [
+          "Victor",
+          "John Melbourne",
+          "Manon",
+          "M. Duvillard",
+          "Louis Manoir",
+          "Madame Tavernier"
+        ],
+        "places": [
+          "Geneva",
+          "Esq",
+          "Geneva"
+        ],
+        "organizations": [
+          "Miss Mansfield"
+        ],
+        "dates": [
+          "last autumn"
+        ]
       }
     },
     "9": {
@@ -163,6 +271,12 @@
         "organizations": [
           "Victor"
         ]
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "10": {
@@ -175,6 +289,16 @@
         "organizations": [
           "ELIZABETH"
         ]
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [
+          "Geneva"
+        ],
+        "organizations": [],
+        "dates": [
+          "March 18th"
+        ]
       }
     },
     "11": {
@@ -184,6 +308,12 @@
         "people": [],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "12": {
@@ -200,6 +330,14 @@
           "Clerval"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "M. Waldman"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "13": {
@@ -215,6 +353,18 @@
           "Young"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "M. Krempe",
+          "M. Waldman",
+          "M. Clerval",
+          "Cornelius Agrippa",
+          "M. Clerval"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "14": {
@@ -226,6 +376,14 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [
+          "M. Krempe"
+        ],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "15": {
@@ -246,6 +404,16 @@
           "Rome"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [
+          "Geneva",
+          "Greece",
+          "Rome"
+        ],
+        "organizations": [],
+        "dates": []
       }
     },
     "16": {
@@ -259,6 +427,19 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [
+          "Geneva"
+        ],
+        "organizations": [
+          "Clerval"
+        ],
+        "dates": [
+          "spring",
+          "spring"
+        ]
       }
     },
     "17": {
@@ -273,6 +454,16 @@
           "Ingolstadt"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [
+          "Henry"
+        ],
+        "dates": [
+          "May"
+        ]
       }
     },
     "18": {
@@ -285,6 +476,15 @@
         ],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": [
+          "spring",
+          "summer"
+        ]
       }
     },
     "19": {
@@ -299,6 +499,12 @@
           "Persian"
         ],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": []
       }
     },
     "20": {
@@ -308,6 +514,14 @@
         "people": [],
         "places": [],
         "organizations": []
+      },
+      "entities_stanford": {
+        "people": [],
+        "places": [],
+        "organizations": [],
+        "dates": [
+          "Sunday"
+        ]
       }
     }
   },
