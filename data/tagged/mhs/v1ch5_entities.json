@@ -1,0 +1,47 @@
+{
+  "people": [
+    "R. J. P. Goodwin",
+    "John Bond",
+    "Sullivan",
+    "Howe",
+    "Copp"
+  ],
+  "places": [
+    "Medford blacksmith",
+    "Medford",
+    "Londonderry, New",
+    "Hampshire",
+    "Londonderry",
+    "North of Ireland",
+    "Medford turnpike",
+    "King",
+    "Woburn, Billerica",
+    "Burlington",
+    "Medford",
+    "Charlestown neck",
+    "Boston",
+    "Charlestown",
+    "Medford",
+    "Boston",
+    "Hill, Boston",
+    "Charlestown"
+  ],
+  "organizations": [
+    "Royall House",
+    "Bedford",
+    "Continental Army",
+    "Bunker Hill",
+    "Royall House",
+    "Royall House",
+    "Royall House",
+    "Revolutionary Army"
+  ],
+  "dates": [
+    "1770",
+    "1689",
+    "summer",
+    "June 16, 1775",
+    "1689",
+    "June 16"
+  ]
+}

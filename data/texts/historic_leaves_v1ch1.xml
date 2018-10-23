@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI.2><text><body><div1 id="c.1" type="chapter" n="1" org="uniform" sample="complete"> <pb id="p.1.7" n="7" /> 
+<head><persName n="Brooks,,Elbridge,Streeter,," id="n0309.0001.00001.00001" reg="default:Brooks,Elbridge,Streeter,," authname="brooks,elbridge,streeter"><foreName full="yes">Elbridge</foreName> <foreName full="yes">Streeter</foreName> <surname full="yes">Brooks</surname></persName></head> 
+<head>Biographical Sketch and Memorial Exercises.</head> 
+<p>
+
+<milestone unit="sentence" n="1" /><persName n="Brooks,,Elbridge,Streeter,," id="n0309.0001.00001.00002" reg="default:Brooks,Elbridge,Streeter,," authname="brooks,elbridge,streeter"><foreName full="yes">Elbridge</foreName> <foreName full="yes">Streeter</foreName> <surname full="yes">Brooks</surname></persName>, the subject of this memorial, was born in <placeName reg="Lowell, Middlesex, Massachusetts" key="tgn,7013975" authname="tgn,7013975">Lowell</placeName> <dateStruct value="1846-04-14" full="yes" authname="1846-04-14"><month reg="04" full="yes">April</month> <day reg="14" full="yes">14</day>, <year reg="1846" full="yes">1846</year></dateStruct>.
+
+<milestone unit="sentence" n="2" />His father, <persName n="Brooks,,Elbridge,Gerry,," id="n0309.0001.00001.00003" reg="default:Brooks,Elbridge,Gerry,," authname="brooks,elbridge,gerry"><foreName full="yes">Elbridge</foreName> <foreName full="yes">Gerry</foreName> <surname full="yes">Brooks</surname></persName>, was a prominent minister in the <orgName n="Universalist Church" type="church">Universalist church</orgName>, and <num value="1">one</num> of the organizing spirits of that denomination.
+
+<milestone unit="sentence" n="3" />Later he became the <num value="1" type="ordinal">first</num> <rs type="role" reg="General-Secretary">general secretary</rs> of the <name>Universalist</name> <orgName n="General Convention" type="misc">general convention</orgName>.
+
+<milestone unit="sentence" n="4" />The elder <rs>Brooks</rs>, who had the reputation of being a fearless, upright, earnest, and eloquent preacher, received the degree of doctor of divinity from <orgName n="Tufts College" type="college">Tufts College</orgName>.
+
+<milestone unit="sentence" n="5" />The mother, <persName n="Fowle,,Martha,,," id="n0309.0001.00001.00004" reg="default:Fowle,Martha,,," authname="fowle,martha"><foreName full="yes">Martha</foreName> <surname full="yes">Fowle</surname></persName> (<persName n="Munroe,,,,," id="n0309.0001.00001.00005" reg="nearbymention:Munroe,Robert,,," authname="munroe,robert"><surname full="yes">Munroe</surname></persName>) <persName n="Brooks,,,,," id="n0309.0001.00001.00006" reg="nearbymention:Brooks,Elbridge,Gerry,," authname="brooks,elbridge,gerry"><surname full="yes">Brooks</surname></persName>, was a cultivated and homemaking <name>Christian</name> gentlewoman, descended from the <name>Munroes</name>, who fought so bravely at <placeName reg="Lexington, Middlesex, Massachusetts" key="tgn,7013888" authname="tgn,7013888">Lexington</placeName>, and whose farm lands and grist mills were near the site of <persName n="Putnam,General,,,," id="n0309.0001.00001.00007" reg="mostcommon:Putnam,Nathaniel,,,:2" authname="putnam,nathaniel"><roleName n="General" full="yes">General</roleName> <surname full="yes">Putnam</surname></persName>'s earthworks on <placeName key="possibilities=81" n="1.000 10" reg="," authname="possibilities=81">Prospect hill</placeName>.</p> 
+<p>
+
+<milestone unit="sentence" n="6" /><persName n="Titus,Reverend,Anson,,," id="n0309.0001.00001.00008" reg="default:Titus,Anson,,," authname="titus,anson"><roleName n="Reverend" full="yes">The Rev.</roleName> <foreName full="yes">Anson</foreName> <surname full="yes">Titus</surname></persName>, in an appreciative article, printed in the <rs>Somerville Journal</rs>, <dateStruct value="1902-02-21" full="yes" authname="1902-02-21"><month reg="02" full="yes">February</month> <day reg="21" full="yes">21</day>, <year reg="1902" full="yes">1902</year></dateStruct>, thus speaks of <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00009" reg="nearbymention:Brooks,Elbridge,Gerry,," authname="brooks,elbridge,gerry"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>' ancestors:— <quote rend="blockquote"> 
+<p>
+
+<milestone unit="sentence" n="7" /></p> 
+<p><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00010" reg="nearbymention:Brooks,Elbridge,Gerry,," authname="brooks,elbridge,gerry"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> was of rugged <placeName reg="Puritan, Vinton, Ohio" key="tgn,2601475" authname="tgn,2601475">Puritan</placeName> ancestry.
+
+<milestone unit="sentence" n="8" />His paternal family was of the best of ancient <placeName key="tgn,7015766" n="1.000 11" reg="kittery, york, maine" authname="tgn,7015766">Kittery</placeName> on the coast of <placeName reg="Maine" key="tgn,7007515" authname="tgn,7007515">Maine</placeName>; his maternal ancestry was of <placeName reg="Charlestown, Boston, Suffolk" key="tgn,7015010" authname="tgn,7015010">Charlestown</placeName> and <placeName reg="Lexington, Middlesex, Massachusetts" key="tgn,7013888" authname="tgn,7013888">Lexington</placeName> stock.
+
+<milestone unit="sentence" n="9" />His father was a man forceful and eminent in the ministry of the</p> 
+<p>
+
+<milestone unit="sentence" n="10" /><orgName n="Universalist Church" type="church">Universalist church</orgName>. His grandfather, <persName n="Brooks,,Oliver,,," id="n0309.0001.00001.00011" reg="default:Brooks,Oliver,,," authname="brooks,oliver"><foreName full="yes">Oliver</foreName> <surname full="yes">Brooks</surname></persName>, was of <placeName reg="South Eliot, York, Maine" key="tgn,2045619" authname="tgn,2045619">Eliot, Me.</placeName>, but who, with his wife, Susan Home, resided in <placeName reg="Portsmouth, Rockingham, New Hampshire" key="tgn,7014275" authname="tgn,7014275">Portsmouth, N. H.</placeName> The great-grandfather was <placeName reg="William Brooks">William Brooks</placeName>, who was among the <num value="1" type="ordinal">first</num> to respond to the alarm from <placeName reg="Lexington, Middlesex, Massachusetts" key="tgn,7013888" authname="tgn,7013888">Lexington</placeName>, and <pb id="p.1.8" n="8" /> was a soldier on these hills of <placeName key="tgn,2050602" n="1.000 4" reg="somerville, middlesex, massachusetts" authname="tgn,2050602">Somerville</placeName> at <rs n="Fort 1">Fort No. 1</rs>; probably at <placeName reg="Bunker Hill, Berkeley, West Virginia" key="tgn,2117622" authname="tgn,2117622">Bunker Hill</placeName>, and certainly was present during the large part of the siege of <placeName reg="Boston, Suffolk, Massachusetts" key="tgn,7013445" authname="tgn,7013445">Boston</placeName>.</p> 
+<p>
+
+<milestone unit="sentence" n="11" />The patriot, <placeName reg="William Brooks">William Brooks</placeName>, was a private in <persName n="Ferrold,,Tobias,,," id="n0309.0001.00001.00012" reg="default:Ferrold,Tobias,,," authname="ferrold,tobias"><foreName full="yes">Tobias</foreName> <surname full="yes">Ferrold</surname></persName>'s <orgName n="company">company</orgName>, the regiment of <persName n="Scammon,Colonel,James,,," id="n0309.0001.00001.00013" reg="default:Scammon,James,,," authname="scammon,james"><roleName n="Colonel" full="yes">Colonel</roleName> <foreName full="yes">James</foreName> <surname full="yes">Scammon</surname></persName>, during those eventful days.
+
+<milestone unit="sentence" n="12" />Before the war of the <name>Revolution</name> closed, he married <persName n="Gowell,,Mary,,," id="n0309.0001.00001.00014" reg="default:Gowell,Mary,,," authname="gowell,mary"><foreName full="yes">Mary</foreName> <surname full="yes">Gowell</surname></persName>.
+
+<milestone unit="sentence" n="13" />His other ancestors, <placeName reg="Joshua Brooks brook">Joshua Brooks</placeName> and <placeName reg="William brook">William Brooks</placeName>, in ancient <placeName key="tgn,7015766" n="1.000 11" reg="kittery, york, maine" authname="tgn,7015766">Kittery</placeName>, allied themselves with the <name>Fogg</name> and Staple families, and wrought valiant service in defending the border lands between the civilization of the towns of <placeName reg="New England" key="tgn,7014203" authname="tgn,7014203">New England</placeName> and the wilderness.</p></quote> </p> 
+<p>
+
+<milestone unit="sentence" n="14" />Portions of <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00015" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>' early boyhood were passed in <placeName reg="Bath, Sagadahoc, Maine" key="tgn,7015765" authname="tgn,7015765">Bath, Me.</placeName>, and <placeName reg="Lynn, Essex, Massachusetts" key="tgn,2050042" authname="tgn,2050042">Lynn, Mass.</placeName>, where his father had parishes, and when <measure n="13years" type="date">thirteen years</measure> of age he moved with his parents to <orgName n="New York City" type="newspaper">New York city</orgName>, when his father assumed charge of a parish in the metropolis.</p> 
+<p>
+
+<milestone unit="sentence" n="15" />In <dateStruct value="1861--" full="yes" authname="1861"><year reg="1861" full="yes">1861</year></dateStruct> <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00016" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> entered the <orgName n="Free Academy" type="academy">Free academy</orgName>, now the <orgName n="New York City College" type="college">college of the city of New York</orgName>, taking excellent rank in literature, history, and the classics, but left in the middle of his junior year to enter the publishing house of <orgName><orgName type="company"><persName n="Appleton,,D.,,," id="n0309.0001.00001.00017" reg="default:Appleton,D.,,," authname="appleton,d."><foreName full="yes">D.</foreName> <surname full="yes">Appleton</surname></persName> &amp; Co.</orgName></orgName> as a salesman.</p> 
+<p>
+
+<milestone unit="sentence" n="16" />We next find him in the publishing houses of <orgName><orgName type="company"><persName n="Ford,,J.,B.,," id="n0309.0001.00001.00018" reg="default:Ford,J.,B.,," authname="ford,j.,b."><foreName full="yes">J.</foreName> <foreName full="yes">B.</foreName> <surname full="yes">Ford</surname></persName> &amp; Co.</orgName></orgName> and <orgName><orgName type="company"><persName n="Sheldon,,,,," id="n0309.0001.00001.00019" reg="mostcommon:Sheldon,nomatch:0" authname="sheldon"><surname full="yes">Sheldon</surname></persName> &amp; Co.</orgName></orgName> In the fall of <dateStruct value="1876--" full="yes" authname="1876"><year reg="1876" full="yes">1876</year></dateStruct> he took charge of the <rs>English</rs> educational and subscription department of the <name>German</name> publishing house of <orgName><orgName type="company"><persName n="Steiger,,E.,,," id="n0309.0001.00001.00020" reg="default:Steiger,E.,,," authname="steiger,e."><foreName full="yes">E.</foreName> <surname full="yes">Steiger</surname></persName> &amp; Co.</orgName></orgName>, remaining there until <dateStruct value="1879-12-" full="yes" authname="1879-12"><month reg="12" full="yes">December</month>, <year reg="1879" full="yes">1879</year></dateStruct>, when he joined the editorial staff of the <name>Publishers</name>' Weekly, the organ of the book publishers' trade.
+
+<milestone unit="sentence" n="17" />From <dateStruct value="1883--" full="yes" authname="1883"><year reg="1883" full="yes">1883</year></dateStruct> to <dateStruct value="1885--" full="yes" authname="1885"><year reg="1885" full="yes">1885</year></dateStruct> he was connected with the staff of the <rs>Brooklyn Daily Times</rs> as reviser, literary editor, and dramatic critic, and in the latter year was invited to become <num value="1">one</num> of the associate editors of the <rs>St. Nicholas</rs>.</p> 
+<p>
+
+<milestone unit="sentence" n="18" /><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00021" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> removed to <placeName reg="Boston, Suffolk, Massachusetts" key="tgn,7013445" authname="tgn,7013445">Boston</placeName> in <dateStruct value="1887--" full="yes" authname="1887"><year reg="1887" full="yes">1887</year></dateStruct>, to join the newlyformed publishing corporation of <persName n="Lothrop,,D.,,," id="n0309.0001.00001.00022" reg="default:Lothrop,D.,,," authname="lothrop,d."><foreName full="yes">D.</foreName> <surname full="yes">Lothrop</surname></persName> company as editor to the corporation.
+
+<milestone unit="sentence" n="19" />He remained there till the death of <persName n="Lothrop,Mister,,,," id="n0309.0001.00001.00023" reg="nearbymention:Lothrop,D.,,," authname="lothrop,d."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Lothrop</surname></persName>, and the business troubles of the house in <dateStruct value="1892--" full="yes" authname="1892"><year reg="1892" full="yes">1892</year></dateStruct>.
+
+<milestone unit="sentence" n="20" />Upon the reorganization of the concern, in <dateStruct value="1895-01-" full="yes" authname="1895-01"><month reg="01" full="yes">January</month>, <year reg="1895" full="yes">1895</year></dateStruct>, he returned <pb id="p.1.9" n="9" /> to the post of literary adviser, which he held up to the time of his death.
+
+<milestone unit="sentence" n="21" />He removed to <placeName key="tgn,2050602" n="1.000 4" reg="somerville, middlesex, massachusetts" authname="tgn,2050602">Somerville</placeName> in <dateStruct value="1887--" full="yes" authname="1887"><year reg="1887" full="yes">1887</year></dateStruct>, and had ever since lived here.</p> 
+<p>
+
+<milestone unit="sentence" n="22" />That <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00024" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>' books should be mainly historical and patriotic naturally follows from the nature of his ancestry and the quality of the <rs>Yankee</rs> blood which flowed through his veins.
+
+<milestone unit="sentence" n="23" />Of the <num value="70">seventy</num> minutemen in line at the <rs n="Battle of Lexington" type="battle">battle of Lexington</rs>, <num value="11">eleven</num> were relatives on his mother's side.
+
+<milestone unit="sentence" n="24" /><num value="3">Three</num> of the names on the monument erected to the memory of the fallen heroes were those of blood relations; the <num value="1" type="ordinal">first</num> is that of <persName n="Munroe,Ensign,Robert,,," id="n0309.0001.00001.00025" reg="default:Munroe,Robert,,," authname="munroe,robert"><roleName n="Ensign" full="yes">Ensign</roleName> <foreName full="yes">Robert</foreName> <surname full="yes">Munroe</surname></persName>, his great-great-uncle.
+
+<milestone unit="sentence" n="25" />His great-grandfather also participated in the battle.
+
+<milestone unit="sentence" n="26" />His paternal grandfather was a jolly privateer in the war of <dateStruct value="1812--" full="yes" authname="1812"><year reg="1812" full="yes">1812</year></dateStruct>, and it is not to be wondered at that <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00026" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> had his share of fighting blood.
+
+<milestone unit="sentence" n="27" />That he should spend his last years on such historic ground as <placeName key="possibilities=81" n="1.000 10" reg="," authname="possibilities=81">Prospect hill</placeName> is singularly appropriate.</p> 
+<p>
+
+<milestone unit="sentence" n="28" />Always during his business and editorial life he was a busy writer.
+
+<milestone unit="sentence" n="29" />His object seemed to have been to instruct and interest the young people.
+
+<milestone unit="sentence" n="30" />His <num value="1" type="ordinal">first</num> marked success was the series of <q direct="unspecified">Historic Boys</q> and <q direct="unspecified">Historic Girls,</q> which originally appeared in the <rs>St. Nicholas Magazine</rs> in <dateStruct value="1885--" full="yes" authname="1885"><year reg="1885" full="yes">1885</year></dateStruct> and <dateStruct value="1886--" full="yes" authname="1886"><year reg="1886" full="yes">1886</year></dateStruct>.
+
+<milestone unit="sentence" n="31" />His <num value="1" type="ordinal">first</num> book was written as a labor of love, and presented the life of his father, who died in <dateStruct value="1876--" full="yes" authname="1876"><year reg="1876" full="yes">1876</year></dateStruct>.
+
+<milestone unit="sentence" n="32" />The volume was published in <dateStruct value="1881--" full="yes" authname="1881"><year reg="1881" full="yes">1881</year></dateStruct>.</p> 
+<p>
+
+<milestone unit="sentence" n="33" />The titles of other volumes which he has placed before the public, and which have been read so widely, are as follows: <q direct="unspecified">In <persName n="Leisler,,,,," id="n0309.0001.00001.00027" reg="mostcommon:Leisler,nomatch:0" authname="leisler"><surname full="yes">Leisler</surname></persName>'s Times,</q> <q direct="unspecified">In No Man's Land,</q> <q direct="unspecified">Storied Holidays,</q> <q direct="unspecified">The American Indian,</q> <q direct="unspecified">The Story of the <rs>American Sailor</rs>,</q> <q direct="unspecified">The American Soldier,</q> <q direct="unspecified">Chivalric Days,</q> <q direct="unspecified">The True Story of the <placeName reg="United States" key="tgn,7012149" authname="tgn,7012149">United States of America</placeName>,</q> <q direct="unspecified">The True Story of <persName n="Columbus,,Christopher,,," id="n0309.0001.00001.00028" reg="default:Columbus,Christopher,,," authname="columbus,christopher"><foreName full="yes">Christopher</foreName> <surname full="yes">Columbus</surname></persName>,</q> <q direct="unspecified">A Boy of the <num value="1" type="ordinal">First</num> Empire,</q> <q direct="unspecified">The Century Book for Young <persName n="Americans,,,,," id="n0309.0001.00001.00029" reg="mostcommon:Americans,nomatch:0" authname="americans"><surname full="yes">Americans</surname></persName>,</q> <q direct="unspecified">The Children's Lives of Great Men,</q> <q direct="unspecified">The True Story of <persName n="Washington,,George,,," id="n0309.0001.00001.00030" reg="default:Washington,George,,," authname="washington,george"><foreName full="yes">George</foreName> <surname full="yes">Washington</surname></persName>,</q> <q direct="unspecified">The True Story of <persName n="Lincoln,,Abraham,,," id="n0309.0001.00001.00031" reg="default:Lincoln,Abraham,,," authname="lincoln,abraham"><foreName full="yes">Abraham</foreName> <surname full="yes">Lincoln</surname></persName>,</q> <q direct="unspecified">The True Story of <persName n="Grant,,U.,S.,," id="n0309.0001.00001.00032" reg="default:Grant,U.,S.,," authname="grant,u.,s."><foreName full="yes">U.</foreName> <foreName full="yes">S.</foreName> <surname full="yes">Grant</surname></persName>,</q> <q direct="unspecified">The True Story of <persName n="Franklin,,Benjamin,,," id="n0309.0001.00001.00033" reg="default:Franklin,Benjamin,,," authname="franklin,benjamin"><foreName full="yes">Benjamin</foreName> <surname full="yes">Franklin</surname></persName>,</q> <q direct="unspecified">The True Story of <persName n="Lafayette,,,,," id="n0309.0001.00001.00034" reg="mostcommon:Lafayette,nomatch:0" authname="lafayette"><surname full="yes">Lafayette</surname></persName>,</q> <q direct="unspecified">The Story of New York,</q> <q direct="unspecified">In <rs type="color">Blue</rs> and <rs type="color">White</rs>,</q> <q direct="unspecified">The Boy <pb id="p.1.10" n="10" /> Life of <persName n="Napoleon,,,,," id="n0309.0001.00001.00035" reg="mostcommon:Napoleon,nomatch:0" authname="napoleon"><surname full="yes">Napoleon</surname></persName>,</q> <q direct="unspecified">Great Cities of the <name>World</name>,</q> <q direct="unspecified">Out of Doors with <persName n="Tennyson,,,,," id="n0309.0001.00001.00036" reg="mostcommon:Tennyson,nomatch:0" authname="tennyson"><surname full="yes">Tennyson</surname></persName>,</q> and <q direct="unspecified">Longfellow Remembrance Book.</q>
+
+<milestone unit="sentence" n="34" /></p> 
+<p>Some of his latest books were <q direct="unspecified">Under the <rs>Allied Flags</rs>: A Boy's Adventures in China During the <rs>Boxer Revolt</rs></q>; <q direct="unspecified">With <persName n="Lawton,,,,," id="n0309.0001.00001.00037" reg="mostcommon:Lawton,nomatch:0" authname="lawton"><surname full="yes">Lawton</surname></persName> and <persName n="Roberts,,,,," id="n0309.0001.00001.00038" reg="mostcommon:Roberts,John,S.,,:2" authname="roberts,john,s."><surname full="yes">Roberts</surname></persName></q>; <q direct="unspecified">In Defense of the <rs>Flag</rs>: A Boy's Adventures in <placeName reg="Espana" key="tgn,1000095" authname="tgn,1000095">Spain</placeName> and <placeName reg="Cuba" key="tgn,7005380" authname="tgn,7005380">Cuba</placeName> in the <rs>War</rs> of <num value="1898">1898</num></q>; <q direct="unspecified">The Story of the <num value="19" type="ordinal">Nineteenth</num> Century</q>; and <q direct="unspecified">The Story of Our War with <placeName key="tgn,1000095" n="1.000 392" reg="espana" authname="tgn,1000095">Spain</placeName>.</q>
+
+<milestone unit="sentence" n="35" /></p> 
+<p>In a conversation several years ago, <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00039" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> said that his favorite work was writing historical stories.
+
+<milestone unit="sentence" n="36" /><q direct="unspecified">My point,</q> he continued, <quote rend="blockquote"> 
+<p>
+
+<milestone unit="sentence" n="37" /></p> 
+<p>is that boys and girls have been the same in all ages of the world.
+
+<milestone unit="sentence" n="38" />They have grown better, of course, as the world has progressed—I and optimist enough to believe that—but their essential natures are the same.
+
+<milestone unit="sentence" n="39" />In writing for them, it is my endeavor to throw aside the dead bones of history, and to put a living, everyday interest into the historical story.</p> 
+<p>
+
+<milestone unit="sentence" n="40" />I believe in leading children gradually, and that you cannot begin too early with healthful and instructive reading, especially that of a patriotic nature.
+
+<milestone unit="sentence" n="41" />I like to work for the boys and girls; it is very satisfactory in many ways, though there are some discouragements.
+
+<milestone unit="sentence" n="42" /><num value="1">One</num> thing I never do, and that is <quote>write down</quote> to children; they know more than their elders give them credit for, and the proper way is to write to lift them up.</p> 
+<p>
+
+<milestone unit="sentence" n="43" />Most of my books lean toward the boys.
+
+<milestone unit="sentence" n="44" />Girls will read a boy's book, but boys, as a rule, won't look at a book that is intended for girls.</p> 
+<p>
+
+<milestone unit="sentence" n="45" />I have now as many as <num value="15">fifteen</num> books in my mind which I hope in time to write.</p></quote> Since this remark, made nearly <measure n="7years" type="date">seven years</measure> ago, <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00040" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> has completed about a score of books.</p> 
+<p>
+
+<milestone unit="sentence" n="46" /><num value="1">One</num> of his most popular volumes, <q direct="unspecified">The Century Book for Young <persName n="Americans,,,,," id="n0309.0001.00001.00041" reg="mostcommon:Americans,nomatch:0" authname="americans"><surname full="yes">Americans</surname></persName>,</q> an extremely readable book on the <rs>American</rs> government, which was issued a few years ago by <orgName n="The Century Company" type="company">the Century company</orgName>, had the unprecedented sale of <num value="20000">20,000</num> volumes in the <num value="1" type="ordinal">first</num> <measure n="3months" type="date">three months</measure> after its publication.</p> 
+<p>
+
+<milestone unit="sentence" n="47" />In <dateStruct value="1891-12-" full="yes" authname="1891-12"><month reg="12" full="yes">December</month>, <year reg="1891" full="yes">1891</year></dateStruct>, <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00042" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> wrote a prize story, published <pb id="p.1.11" n="11" /> in the <orgName n="Detroit Free Press" type="newspaper">Detroit Free Press</orgName>, entitled <q direct="unspecified">A Son of <placeName reg="Issachar">Issachar</placeName>,</q> of which <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00043" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> said: <q direct="unspecified">It was written to see if a religious novel would have a chance with a secular public, and the result easily proved that such was possible.
+
+<milestone unit="sentence" n="48" />I maintained, as is seen in the case of <quote><persName n="Hur,,Ben,,," id="n0309.0001.00001.00044" reg="default:Hur,Ben,,," authname="hur,ben"><foreName full="yes">Ben</foreName> <surname full="yes">Hur</surname></persName>,</quote> that there is no ground so favorable for a real romance as Bible history.</q>
+
+<milestone unit="sentence" n="49" /></p> 
+<p><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00045" reg="nearbymention:Brooks,Oliver,,," authname="brooks,oliver"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> was a member of the <orgName n="Authors' Club" type="club">Authors' Club</orgName> of New York, which includes the leading authors of the country, and also of several historical societies.
+
+<milestone unit="sentence" n="50" />At the time of his death he was <num value="1" type="ordinal">first</num> <rs type="role" reg="vice-President">vice-president</rs> of the <name>Somerville</name> <orgName n="Historical Society" type="society">Historical Society</orgName>.
+
+<milestone unit="sentence" n="51" />While his writings were very widely read, he was of a retiring disposition, and evinced a strong dislike of notoriety and display.
+
+<milestone unit="sentence" n="52" />He received the honorary degree of master of arts from <orgName n="Tufts College" type="college">Tufts College</orgName> in <dateStruct value="1887--" full="yes" authname="1887"><year reg="1887" full="yes">1887</year></dateStruct>.
+
+<milestone unit="sentence" n="53" />He leaves a wife and <num value="2">two</num> daughters, the <rs type="place">Misses Geraldine</rs> and <placeName reg="Christine brook">Christine Brooks</placeName>, both of whom resided with their distinguished father.
+
+<milestone unit="sentence" n="54" /><persName n="Brooks,Miss,Geraldine,,," id="n0309.0001.00001.00046" reg="default:Brooks,Geraldine,,," authname="brooks,geraldine"><roleName n="Miss" full="yes">Miss</roleName> <foreName full="yes">Geraldine</foreName> <surname full="yes">Brooks</surname></persName> has already made a mark in historical literature, having published <num value="2">two</num> volumes.</p> 
+<p>
+
+<milestone unit="sentence" n="55" /><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00047" reg="nearbymention:Brooks,Geraldine,,," authname="brooks,geraldine"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> died <dateStruct full="yes"><day type="name" full="yes">Tuesday</day></dateStruct> <time>morning</time>, <dateStruct value="1902-01-07" full="yes" authname="1902-01-07"><month reg="01" full="yes">January</month> <day reg="7" full="yes">7</day>, <year reg="1902" full="yes">1902</year></dateStruct>, at his home, <address><street n="Walnut Street 44">44 Walnut street</street></address>. Funeral services were held on the following <rs>Thursday</rs> at <time value="2oclock">2 o'clock</time>. In the large gathering of friends present were men and women prominent in literary walks of life.
+
+<milestone unit="sentence" n="56" />The services were conducted by <persName n="Pierson,Reverend,William,H.,," id="n0309.0001.00001.00048" reg="default:Pierson,William,H.,," authname="pierson,william,h."><roleName n="Reverend" full="yes">the Rev.</roleName> <foreName full="yes">William</foreName> <foreName full="yes">H.</foreName> <surname full="yes">Pierson</surname></persName>, pastor of the <orgName n="Unitarian Church 1" type="church">First Unitarian church</orgName>, and included reading from the <name>Scriptures</name>, the reading of extracts from <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00049" reg="nearbymention:Brooks,Geraldine,,," authname="brooks,geraldine"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>' works, and prayer.</p> 
+<p>
+
+<milestone unit="sentence" n="57" />Among the floral tributes were those from the <name>Somerville</name> <orgName n="Historical Society" type="society">Historical Society</orgName>, and a wreath of violets and roses <q direct="unspecified">from a few of the many <placeName key="tgn,2050602" n="1.000 4" reg="somerville, middlesex, massachusetts" authname="tgn,2050602">Somerville</placeName> boys who loved his books.</q>
+
+<milestone unit="sentence" n="58" /></p> 
+<p>After the services the remains were taken to <placeName reg="Mount Auburn, Middlesex, Massachusetts" key="tgn,2140130" authname="tgn,2140130">Mount Auburn</placeName> for cremation.
+
+<milestone unit="sentence" n="59" />The pall-bearers were <persName n="Bacheller,,Irving,,," id="n0309.0001.00001.00050" reg="default:Bacheller,Irving,,," authname="bacheller,irving"><foreName full="yes">Irving</foreName> <surname full="yes">Bacheller</surname></persName>, <persName n="Hoyt,,Frank,,," id="n0309.0001.00001.00051" reg="default:Hoyt,Frank,,," authname="hoyt,frank"><foreName full="yes">Frank</foreName> <surname full="yes">Hoyt</surname></persName>, <persName n="Morill,,Henry,,," id="n0309.0001.00001.00052" reg="default:Morill,Henry,,," authname="morill,henry"><foreName full="yes">Henry</foreName> <surname full="yes">Morill</surname></persName>, the last <num value="2">two</num> representing the <name>Lothrop</name> company, and <persName n="Kidder,,Arthur,T.,," id="n0309.0001.00001.00053" reg="default:Kidder,Arthur,T.,," authname="kidder,arthur,t."><foreName full="yes">Arthur</foreName> <foreName full="yes">T.</foreName> <surname full="yes">Kidder</surname></persName>, of <placeName key="tgn,2050602" n="1.000 4" reg="somerville, middlesex, massachusetts" authname="tgn,2050602">Somerville</placeName>.</p> 
+<p>
+
+<milestone unit="sentence" n="60" />The following is from the tribute of <persName n="Foss,,Sam,Walter,," id="n0309.0001.00001.00054" reg="default:Foss,Sam,Walter,," authname="foss,sam,walter"><foreName full="yes">Sam</foreName> <foreName full="yes">Walter</foreName> <surname full="yes">Foss</surname></persName>.
+
+<milestone unit="sentence" n="61" />It appeared in the <rs>Somerville Journal</rs> for <dateStruct value="-01-10" full="yes" authname="--01-10"><month reg="01" full="yes">January</month> <day reg="10" full="yes">10</day></dateStruct>, and our biographical sketch of <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00055" reg="nearbymention:Brooks,Geraldine,,," authname="brooks,geraldine"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> is also quoted from that paper:— </p> 
+<div2 id="c.1.1" type="section" n="c.1.1" org="uniform" sample="complete"> <pb id="p.1.12" n="12" /> 
+<head><persName n="Brooks,,Elbridge,Streeter,," id="n0309.0001.00001.00056" reg="default:Brooks,Elbridge,Streeter,," authname="brooks,elbridge,streeter"><foreName full="yes">Elbridge</foreName> <foreName full="yes">Streeter</foreName> <surname full="yes">Brooks</surname></persName> as a writer and friend</head> 
+<p>
+
+<milestone unit="sentence" n="62" />The death of <persName n="Brooks,,Elbridge,S.,," id="n0309.0001.00001.00057" reg="expanded:Brooks,Elbridge,Streeter,," authname="brooks,elbridge,streeter"><foreName full="yes">Elbridge</foreName> <foreName full="yes">S.</foreName> <surname full="yes">Brooks</surname></persName> will be lamented throughout the English-reading world; for he was an author of established fame, at the height of his productive period, with an apparent prospect of producing as many good books in the future as he had already produced in the past.
+
+<milestone unit="sentence" n="63" />The gulf stream of his life had not as yet flowed into the <rs>Arctic</rs> winter of age. His powers were unabated, his literary designs many, and his genial enthusiasms and high ambitions as warm as ever.
+
+<milestone unit="sentence" n="64" />So it is natural for the literary world, and for the <num value="1000">thousands</num> who had learned to await the appearance of his successive books, to feel sorrow at his death.
+
+<milestone unit="sentence" n="65" />But sorrow for the author by the world at large cannot approach the grief of his friends, who knew the man himself.
+
+<milestone unit="sentence" n="66" />Of course the people who were brought into frequent contact with <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00058" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> knew that he was an author of many works that had secured the approbation of the reading world.
+
+<milestone unit="sentence" n="67" />But we who knew him by intimate contact seldom thought of him as an author at all. He had none of the affectations of authorship; he was utterly without lettered pride; he never <q direct="unspecified">talked like a book,</q> and he never posed like a celebrity.
+
+<milestone unit="sentence" n="68" />Success that makes small men vain never contracted the largeness of his heart or soul.
+
+<milestone unit="sentence" n="69" />His heart was like a wayside inn, where every traveler could rest.
+
+<milestone unit="sentence" n="70" />Those who knew the man could understand why his books found so many responsive readers.
+
+<milestone unit="sentence" n="71" />He reached men because he loved men.</p> 
+<p>
+
+<milestone unit="sentence" n="72" /><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00059" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> is chiefly known as the author of books for the young.
+
+<milestone unit="sentence" n="73" />This popular conception of him is based on good reasons, but we should not be misled by it. His books are certainly books very popular with the young, but no man or woman is too old to find them readable.
+
+<milestone unit="sentence" n="74" />He was wise enough to know that a healthy boy is a man in his hopes, and a good man is a boy in his memories.
+
+<milestone unit="sentence" n="75" />A man without a boy's heart in his breast is as <pb id="p.1.13" n="13" /> tragic a failure as a boy without a man's manliness in his nature.
+
+<milestone unit="sentence" n="76" /><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00060" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> knew this, and so, very sensibly, he wrote for young people very much as he would write for older people.
+
+<milestone unit="sentence" n="77" />When he wrote a book the boy in his heart dictated to the man in his brain, and so the book was a book that either a man or boy would read.
+
+<milestone unit="sentence" n="78" />He knew, what some writers of juveniles never learn, that a boy becomes wise very young.
+
+<milestone unit="sentence" n="79" />So he knew better than to write patronizingly to his youthful readers.
+
+<milestone unit="sentence" n="80" />He never stood on a high pedestal and shouted moral platitudes down to them.
+
+<milestone unit="sentence" n="81" />He never told them to be good.
+
+<milestone unit="sentence" n="82" />He made them good, in the only way that a man or a boy can be made good, by making them think, good thoughts.
+
+<milestone unit="sentence" n="83" />His fiction, in the highest sense of the word, is true; but his history is never fiction.
+
+<milestone unit="sentence" n="84" />He took unusual pains to verify all historical statements and allusions.
+
+<milestone unit="sentence" n="85" />He was a voluminous writer, but he was not voluminous at the expense of accuracy and painstaking labor.
+
+<milestone unit="sentence" n="86" />He had a genius for hard work.</p> 
+<p>
+
+<milestone unit="sentence" n="87" /><placeName key="tgn,2050602" n="1.000 4" reg="somerville, middlesex, massachusetts" authname="tgn,2050602">Somerville</placeName> was honored in being the residence of such a man. He sent out work from here that traveled far and reached many firesides.
+
+<milestone unit="sentence" n="88" /><num value="1000">Thousands</num> knew him through his books and called his books good.
+
+<milestone unit="sentence" n="89" />We who knew the man also call his books good; but we call the man better than his books.</p> 
+<p>
+
+<milestone unit="sentence" n="90" />At a meeting of the council of the <name>Somerville</name> <orgName n="Historical Society" type="society">Historical Society</orgName>, held <dateStruct full="yes"><day type="name" full="yes">Wednesday</day></dateStruct> <time>evening</time>, <dateStruct value="-01-8" full="yes" authname="--01-08"><month reg="01" full="yes">January</month> <day reg="8" full="yes">8</day></dateStruct>, to take action on the death of <persName n="Brooks,,Elbridge,S.,," id="n0309.0001.00001.00061" reg="expanded:Brooks,Elbridge,Streeter,," authname="brooks,elbridge,streeter"><foreName full="yes">Elbridge</foreName> <foreName full="yes">S.</foreName> <surname full="yes">Brooks</surname></persName>, <num value="1" type="ordinal">first</num> <rs type="role" reg="vice-President">vice-president</rs> of the society, a committee, consisting of <persName n="Ayer,President,John,F.,," id="n0309.0001.00001.00062" reg="default:Ayer,John,F.,," authname="ayer,john,f."><roleName n="President" full="yes">President</roleName> <foreName full="yes">John</foreName> <foreName full="yes">F.</foreName> <surname full="yes">Ayer</surname></persName>, <persName n="Elliot,ex-President,Charles,D.,," id="n0309.0001.00001.00063" reg="default:Elliot,Charles,D.,," authname="elliot,charles,d."><roleName n="ex-President" full="yes">ex-President</roleName> <foreName full="yes">Charles</foreName> <foreName full="yes">D.</foreName> <surname full="yes">Elliot</surname></persName>, and <persName n="Pillsbury,Vice-President,L.,B.,," id="n0309.0001.00001.00064" reg="default:Pillsbury,L.,B.,," authname="pillsbury,l.,b."><roleName n="Vice-President" full="yes">Vice-President</roleName> <foreName full="yes">L.</foreName> <foreName full="yes">B.</foreName> <surname full="yes">Pillsbury</surname></persName>, was appointed to represent the society at the funeral; a committee was also appointed to prepare a suitable memorial of the deceased.</p> 
+<p>
+
+<milestone unit="sentence" n="91" />Under the auspices of this society a memorial service was held <dateStruct full="yes"><day type="name" full="yes">Sunday</day></dateStruct> <time>afternoon</time>, <dateStruct value="-02-16" full="yes" authname="--02-16"><month reg="02" full="yes">February</month> <day reg="16" full="yes">16</day></dateStruct>, in the <orgName n="Unitarian Church" type="church">Unitarian church</orgName>, on <pb id="p.1.14" n="14" /> <address><street n="Highland avenue">Highland avenue</street></address>, in honor of the late <rs>Elbridge Streeter Brooks</rs>, story-writer and historian.
+
+<milestone unit="sentence" n="92" />Besides the other exercises there was prayer by <persName n="Capen,President,,,," id="n0309.0001.00001.00065" reg="mostcommon:Capen,E.,H.,,:1" authname="capen,e.,h."><roleName n="President" full="yes">President</roleName> <surname full="yes">Capen</surname></persName> of <orgName n="Tufts College" type="college">Tufts College</orgName>; introductory remarks by <persName n="Ayer,,John,F.,," id="n0309.0001.00001.00066" reg="default:Ayer,John,F.,," authname="ayer,john,f."><foreName full="yes">John</foreName> <foreName full="yes">F.</foreName> <surname full="yes">Ayer</surname></persName>, president of the <orgName n="Historical Society" type="society">Historical Society</orgName>; addresses by <persName n="Harbour,,J.,L.,," id="n0309.0001.00001.00067" reg="default:Harbour,J.,L.,," authname="harbour,j.,l."><foreName full="yes">J.</foreName> <foreName full="yes">L.</foreName> <surname full="yes">Harbour</surname></persName>, <num value="1">one</num> of the editors of the <rs>Youth</rs>'s Companion; <persName n="Butterworth,,Hezekiah,,," id="n0309.0001.00001.00068" reg="default:Butterworth,Hezekiah,,," authname="butterworth,hezekiah"><foreName full="yes">Hezekiah</foreName> <surname full="yes">Butterworth</surname></persName>, author and editor, and <persName n="Pierson,Reverend,William,H.,," id="n0309.0001.00001.00069" reg="default:Pierson,William,H.,," authname="pierson,william,h."><roleName n="Reverend" full="yes">Rev.</roleName> <foreName full="yes">William</foreName> <foreName full="yes">H.</foreName> <surname full="yes">Pierson</surname></persName>, <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00070" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>' pastor; and the singing of a hymn written by <persName n="Foss,,Sam,Walter,," id="n0309.0001.00001.00071" reg="default:Foss,Sam,Walter,," authname="foss,sam,walter"><foreName full="yes">Sam</foreName> <foreName full="yes">Walter</foreName> <surname full="yes">Foss</surname></persName>.</p></div2> 
+<div2 id="c.1.2" type="section" n="c.1.2" org="uniform" sample="complete"> 
+<head>Address by <persName n="Ayer,,John,F.,," id="n0309.0001.00001.00072" reg="default:Ayer,John,F.,," authname="ayer,john,f."><foreName full="yes">John</foreName> <foreName full="yes">F.</foreName> <surname full="yes">Ayer</surname></persName></head> 
+<p>
+
+<milestone unit="sentence" n="93" /><quote rend="blockquote"> 
+<p /> 
+<p>At the time of the organization of the <orgName n="Historical Society" type="society">Historical Society</orgName>, <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00073" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> was elected a vice-president.
+
+<milestone unit="sentence" n="94" />His work as a writer of historical books and his interest in all things historical in his adopted city clearly entitled him to this recognition.</p> 
+<p>
+
+<milestone unit="sentence" n="95" />His interest in the society never wavered.
+
+<milestone unit="sentence" n="96" />As a member of the council, his training, his occupation, and his practical ideas were of great and increasing value as the years went by.</p> 
+<p>
+
+<milestone unit="sentence" n="97" />Because of these things, primarily because of his acknowledged ability as a writer of authentic history for the young, presenting, as he did, the study of history in its most attractive form to the impressible minds of youth, because of his modesty and gentlemanly bearing, because of the honorable record he had made among his contemporaries, and more especially because of his upright and manly life in our midst, we, as an organization, have thought it eminently fit and proper to come up here to-day and lay upon this altar an offering of our appreciation and regard.</p> 
+<p>
+
+<milestone unit="sentence" n="98" />Nor would we forget the cherished family of our friend,— the home he loved, now, alas!
+
+<milestone unit="sentence" n="99" />so desolate; but, in so far as it is possible, we desire to extend our heartfelt sympathy, and so penetrate the gloom with a ray of sunlight, it may be, not incompatible with the changed conditions of the <num value="1">one</num>, or the extreme unutterable loneliness of the other.
+
+<milestone unit="sentence" n="100" /><pb id="p.1.15" n="15" /></p> 
+<p>Such a man, living in our midst, diligent, painstaking, unselfish, gifted with the power to interest and instruct the youth the country over in the great movements and events of the past, and able to clearly set before them the characters, the commanding greatness of the famous men of our nation, as fit objects for their respect and emulation, may peradventure be doing as much for the future of the country, for the city's good name at home and abroad, for the cause of good citizenship, as he who gives of his abundance to establish institutions of learning, or for philanthropic or charitable purposes,—as much as the individual legislator or statesman, it may be, or even as much as he who draws his sword in his country's defense, or for the cause of humanity.</p> 
+<p>
+
+<milestone unit="sentence" n="101" />The <placeName key="tgn,2050602" n="1.000 4" reg="somerville, middlesex, massachusetts" authname="tgn,2050602">Somerville</placeName> <orgName n="Historical Society" type="society">Historical Society</orgName> was honored by the official connection with it of <persName n="Brooks,,Elbridge,Streeter,," id="n0309.0001.00001.00074" reg="default:Brooks,Elbridge,Streeter,," authname="brooks,elbridge,streeter"><foreName full="yes">Elbridge</foreName> <foreName full="yes">Streeter</foreName> <surname full="yes">Brooks</surname></persName>.
+
+<milestone unit="sentence" n="102" />It desires to go upon record as appreciating his interest in the organization, his tireless industry in research, his devotion to and his success in the writing of many historical books.</p></quote> </p></div2> 
+<div2 id="c.1.3" type="section" n="c.1.3" org="uniform" sample="complete"> 
+<head>Address by <persName n="Harbour,,F.,L.,," id="n0309.0001.00001.00075" reg="default:Harbour,F.,L.,," authname="harbour,f.,l."><foreName full="yes">F.</foreName> <foreName full="yes">L.</foreName> <surname full="yes">Harbour</surname></persName> of the <rs>Youth</rs>'s Companion</head> 
+<p>
+
+<milestone unit="sentence" n="103" /><quote rend="blockquote"> 
+<p /> 
+<p>I feel it to be a great privilege to be given the opportunity of paying a brief tribute of affection and respect to the memory of a man like <persName n="Brooks,,Elbridge,S.,," id="n0309.0001.00001.00076" reg="expanded:Brooks,Elbridge,Streeter,," authname="brooks,elbridge,streeter"><foreName full="yes">Elbridge</foreName> <foreName full="yes">S.</foreName> <surname full="yes">Brooks</surname></persName>.
+
+<milestone unit="sentence" n="104" />I wish that I might more fitly say all that I would like to say and all that ought to be said about him. I am glad that there are others here who can say better than I the true and tender words you have come to hear in memory of <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00077" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>.
+
+<milestone unit="sentence" n="105" />I have but <num value="1">one</num> thing to regret in connection with my acquaintance with <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00078" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>, and that is the fact that I knew him for such a little while.
+
+<milestone unit="sentence" n="106" />But from the <num value="1" type="ordinal">first</num> day of my meeting with him I felt that I had known him for a long time, and we did not meet as strangers.
+
+<milestone unit="sentence" n="107" />And now that he has gone from us, I think of him as of some comrade of many <pb id="p.1.16" n="16" /> years, and I am sure that I shall miss him quite as much as many of you whose privilege it has been to know him long before that privilege was mine.</p> 
+<p>
+
+<milestone unit="sentence" n="108" />I have seen <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00079" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> under varying conditions.
+
+<milestone unit="sentence" n="109" />I have been a guest in his home, and he has been a welcome guest in my own home.
+
+<milestone unit="sentence" n="110" />I have seen him at his desk and in the social world.
+
+<milestone unit="sentence" n="111" />I have seen him in health, and I have seen him when the precious heritage of health was no longer his. But I have never seen him when he was not brave, and cheery, and kindly.
+
+<milestone unit="sentence" n="112" />He knew, as I knew, the last time I saw him, that the end was not far distant, but there was no complaint and no repining.
+
+<milestone unit="sentence" n="113" />I remember that when I said good-bye to him the last time I saw him, and I added that I hoped that he would feel better very soon, he smiled, but shook his head.
+
+<milestone unit="sentence" n="114" />A less courageous man, a man of less self-poise, and serenity, and sweetness of spirit, would have made some outcry against the cruel hand of fate that held the decree of death for him at a time when life seemed fullest of hopes and of harmonies.
+
+<milestone unit="sentence" n="115" />The memory of <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00080" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>' unfailing calmness and courage in those last days will give many of us more faith and more courage for our own battle.
+
+<milestone unit="sentence" n="116" />He seemed in his outward attitude to be verifying the words of <num value="1">one</num> of our modern poets, who has written that:— <quote rend="blockquote"> 
+<p>
+
+<milestone unit="sentence" n="117" /></p><l>Death is delightful.
+
+<milestone unit="sentence" n="118" />Death is dawn—</l> <l>The waking from a weary night</l> <l>Of fevers unto truth and light.</l></quote> </p> 
+<p>
+
+<milestone unit="sentence" n="119" />It was but yesterday that I picked up a magazine for the young, and I found in it, under the title of <quote>Safe books for the young,</quote> several of <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00081" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>' volumes.
+
+<milestone unit="sentence" n="120" />The world can ill afford to lose a man who is writing safe books for the young in an age when so many unsafe books for our boys and girls are being written.
+
+<milestone unit="sentence" n="121" />The world never needed a man like <persName n="Brooks,,Elbridge,,," id="n0309.0001.00001.00082" reg="default:Brooks,Elbridge,,," authname="brooks,elbridge"><foreName full="yes">Elbridge</foreName> <surname full="yes">Brooks</surname></persName> more than it needed him when he was taken away.
+
+<milestone unit="sentence" n="122" />When he went out of this life, many a man lost a steadfast and <pb id="p.1.17" n="17" /> sympathetic friend, and the world of literature a potent power for good.
+
+<milestone unit="sentence" n="123" />The loss to those who were allied to him by ties of kinship and loved him best no man may measure.</p> 
+<p>
+
+<milestone unit="sentence" n="124" />A man of high ideals and tireless energy, <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00083" reg="nearbymention:Brooks,Elbridge,,," authname="brooks,elbridge"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> could not be other than a useful man in the world.
+
+<milestone unit="sentence" n="125" />Interested in all that counts for anything in the uplifting of humanity, ready to give freely of his time, and glad to lend his influence to anything helpful in the town in which he lived, he attained to the high distinction of being a useful man in the community.
+
+<milestone unit="sentence" n="126" />That the community in which he lived appreciated his services and honored him is evidenced by this service to his memory.</p> 
+<p>
+
+<milestone unit="sentence" n="127" />The secret of the influence for good exerted by <persName n="Brooks,,Elbridge,,," id="n0309.0001.00001.00084" reg="default:Brooks,Elbridge,,," authname="brooks,elbridge"><foreName full="yes">Elbridge</foreName> <surname full="yes">Brooks</surname></persName> lay in the fact that he always spoke and wrote out of his own best nature.
+
+<milestone unit="sentence" n="128" />His best self was not hidden.
+
+<milestone unit="sentence" n="129" />It is true that <quote>no <num value="1">one</num> can really speak to men the words that uplift and invigorate who does not <num value="1" type="ordinal">first</num> develop this inward force, this victorious faith in the truth as he sees it.</quote></p> 
+<p>
+
+<milestone unit="sentence" n="130" /><persName n="Brooks,,Elbridge,,," id="n0309.0001.00001.00085" reg="default:Brooks,Elbridge,,," authname="brooks,elbridge"><foreName full="yes">Elbridge</foreName> <surname full="yes">Brooks</surname></persName> was a man who tried to do his full duty as a man, as a husband, as a father, as a citizen, and as a writer whose work must influence for good or evil, and, as <placeName reg="Phillips Brooks">Phillips Brooks</placeName> once said, <quote>This truth comes to us more and more the longer we live, that on what field or in what uniform, or with what aims we do our duty matters very little, or even what our duty is, great or small, splendid or obscure.
+
+<milestone unit="sentence" n="131" />Only to find our duty certainly and somewhere, somehow do it faithfully, makes us good, strong, happy, and useful men, and tunes our lives into some feeble echo of the life of <name n="God" type="God">God</name>.</quote></p> 
+<p>
+
+<milestone unit="sentence" n="132" />We are here to-day to honor the memory of a man who did his duty, and who lived a faithful, earnest, and sincere life, and who made the world better because of his sojourn in it. To have done this is to have lived worthily and to have made the most and the best of life.
+
+<milestone unit="sentence" n="133" />To have done this is to live long in the affections of those we leave behind when we have crossed the bar; and the name of <persName n="Brooks,,Elbridge,,," id="n0309.0001.00001.00086" reg="default:Brooks,Elbridge,,," authname="brooks,elbridge"><foreName full="yes">Elbridge</foreName> <surname full="yes">Brooks</surname></persName> will linger long in the memory of those who knew him best.</p></quote> </p></div2> 
+<div2 id="c.1.4" type="section" n="c.1.4" org="uniform" sample="complete"> <pb id="p.1.18" n="18" /> 
+<head>Address by <persName n="Butterworth,Mister,,,," id="n0309.0001.00001.00087" reg="nearbymention:Butterworth,Hezekiah,,," authname="butterworth,hezekiah"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Butterworth</surname></persName></head> 
+<p>
+
+<milestone unit="sentence" n="134" />After a very touching solo by <persName n="Clark,Miss,,,," id="n0309.0001.00001.00088" reg="mostcommon:Clark,George,B.,,:1" authname="clark,george,b."><roleName n="Miss" full="yes">Miss</roleName> <surname full="yes">Clark</surname></persName>, entitled <q direct="unspecified"><name n="God" type="God">God</name> shall wipe away all tears from their eyes,</q> <persName n="Butterworth,,Hezekiah,,," id="n0309.0001.00001.00089" reg="default:Butterworth,Hezekiah,,," authname="butterworth,hezekiah"><foreName full="yes">Hezekiah</foreName> <surname full="yes">Butterworth</surname></persName> spoke words of eloquent eulogy.
+
+<milestone unit="sentence" n="135" /><q direct="unspecified">A builder of men,</q> he said, <q direct="unspecified">has gone from among us. A man who lived for what he could do for others, whose <num value="1">one</num> desire and ideal was that he might make an impression upon the young man of <placeName reg="United States, North and Central America, " key="tgn,7012149" authname="tgn,7012149">America</placeName> and lift him to higher standards, has joined the choir invisible.</q>
+
+<milestone unit="sentence" n="136" /></p> 
+<p>Continuing, he said: <q direct="unspecified">I am not going to speak of his <num value="40">forty</num> or more books, or the work that he did on the <rs>St. Nicholas</rs> or the <rs>Wide Awake</rs>, but of him as an inspirer of young life,—of a man, himself inspired, who was the cause of inspiration in others.</q>
+
+<milestone unit="sentence" n="137" /></p> 
+<p><persName n="Butterworth,Mister,,,," id="n0309.0001.00001.00090" reg="nearbymention:Butterworth,Hezekiah,,," authname="butterworth,hezekiah"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Butterworth</surname></persName> told how <persName n="Garrison,,William,Lloyd,," id="n0309.0001.00001.00091" reg="default:Garrison,William,Lloyd,," authname="garrison,william,lloyd"><foreName full="yes">William</foreName> <foreName full="yes">Lloyd</foreName> <surname full="yes">Garrison</surname></persName> had touched <persName n="Whittier,,John,G.,," id="n0309.0001.00001.00092" reg="default:Whittier,John,G.,," authname="whittier,john,g."><foreName full="yes">John</foreName> <foreName full="yes">G.</foreName> <surname full="yes">Whittier</surname></persName>, then a young man, on the shoulder, and said, <q direct="unspecified">You are a poet,</q> and how <persName n="Whittier,,,,," id="n0309.0001.00001.00093" reg="nearbymention:Whittier,John,G.,," authname="whittier,john,g."><surname full="yes">Whittier</surname></persName>, in turn, said the same to <persName n="Larcom,,Lucy,,," id="n0309.0001.00001.00094" reg="default:Larcom,Lucy,,," authname="larcom,lucy"><foreName full="yes">Lucy</foreName> <surname full="yes">Larcom</surname></persName> in her early life, and the results which followed from the words of encouragement.
+
+<milestone unit="sentence" n="138" /><persName n="Willis,,N.,Parker,," id="n0309.0001.00001.00095" reg="default:Willis,N.,Parker,," authname="willis,n.,parker"><foreName full="yes">N.</foreName> <foreName full="yes">Parker</foreName> <surname full="yes">Willis</surname></persName> and <persName n="Fields,,James,T.,," id="n0309.0001.00001.00096" reg="default:Fields,James,T.,," authname="fields,james,t."><foreName full="yes">James</foreName> <foreName full="yes">T.</foreName> <surname full="yes">Fields</surname></persName> were others who inspired young writers.
+
+<milestone unit="sentence" n="139" />In the same way, he said, <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00097" reg="nearbymention:Brooks,Elbridge,,," authname="brooks,elbridge"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> had words of encouragement for young authors, and helped them along the difficult pathway to success.
+
+<milestone unit="sentence" n="140" />Among the cases he cited without giving names was <quote rend="blockquote"> 
+<p>
+
+<milestone unit="sentence" n="141" /></p> 
+<p><num value="1">one</num> whose works have outsold nearly all others in the last <num value="10">ten</num> or <measure n="20years" type="date">twenty years</measure>, and who had been told by <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00098" reg="nearbymention:Brooks,Elbridge,,," authname="brooks,elbridge"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> what to do, and how to do it, in order to make his writings a success.
+
+<milestone unit="sentence" n="142" /><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00099" reg="nearbymention:Brooks,Elbridge,,," authname="brooks,elbridge"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> told this man how to make the imperfect perfect, and so was produced <num value="1">one</num> of the most popular books ( <quote><persName n="Holden,,Eben,,," id="n0309.0001.00001.00100" reg="default:Holden,Eben,,," authname="holden,eben"><foreName full="yes">Eben</foreName> <surname full="yes">Holden</surname></persName>,</quote> presumably) of the present age.</p> 
+<p>
+
+<milestone unit="sentence" n="143" />Men who build, men who have influence like <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00101" reg="nearbymention:Brooks,Elbridge,,," authname="brooks,elbridge"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>, live on and on, and their influence continually increases.
+
+<milestone unit="sentence" n="144" /><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00102" reg="nearbymention:Brooks,Elbridge,,," authname="brooks,elbridge"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> once said to me: <quote>My desire is to write historical books that will make the past live again.</quote>
+
+<milestone unit="sentence" n="145" /><pb id="p.1.19" n="19" /></p> 
+<p>His name may be swallowed up in the great number of names of persons writing for beneficent purposes, but <persName n="Brooks,,Elbridge,S.,," id="n0309.0001.00001.00103" reg="expanded:Brooks,Elbridge,Streeter,," authname="brooks,elbridge,streeter"><foreName full="yes">Elbridge</foreName> <foreName full="yes">S.</foreName> <surname full="yes">Brooks</surname></persName> has fulfilled his ideals, and done a work in this generation whose influence will never perish.
+
+<milestone unit="sentence" n="146" />To write a book of influence is the greatest contribution a man can make.
+
+<milestone unit="sentence" n="147" /><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00104" reg="nearbymention:Brooks,Elbridge,S.,," authname="brooks,elbridge,s."><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName> wrote <num value="40">forty</num> such books.
+
+<milestone unit="sentence" n="148" />The memory of <persName n="Brooks,,Elbridge,,," id="n0309.0001.00001.00105" reg="default:Brooks,Elbridge,,," authname="brooks,elbridge"><foreName full="yes">Elbridge</foreName> <surname full="yes">Brooks</surname></persName> is <num value="1">one</num> that <quote>will smell sweet and blossom in the dust,</quote> as <num value="1">one</num> who helped and blessed mankind.</p></quote> </p></div2> 
+<div2 id="c.1.5" type="section" n="c.1.5" org="uniform" sample="complete"> 
+<head>Address by <persName n="Pierson,Reverend-Mister,,,," id="n0309.0001.00001.00106" reg="nearbymention:Pierson,William,H.,," authname="pierson,william,h."><roleName n="Reverend-Mister" full="yes">Rev. Mr.</roleName> <surname full="yes">Pierson</surname></persName></head> 
+<p>
+
+<milestone unit="sentence" n="149" /><persName n="Pierson,Reverend,William,H.,," id="n0309.0001.00001.00107" reg="default:Pierson,William,H.,," authname="pierson,william,h."><roleName n="Reverend" full="yes">Rev.</roleName> <foreName full="yes">William</foreName> <foreName full="yes">H.</foreName> <surname full="yes">Pierson</surname></persName>, pastor of the church, spoke interestingly of the life and character of <persName n="Brooks,Mister,,,," id="n0309.0001.00001.00108" reg="nearbymention:Brooks,Elbridge,,," authname="brooks,elbridge"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>. <q direct="unspecified"><persName n="Brooks,Mister,,,," id="n0309.0001.00001.00109" reg="nearbymention:Brooks,Elbridge,,," authname="brooks,elbridge"><roleName n="Mister" full="yes">Mr.</roleName> <surname full="yes">Brooks</surname></persName>,</q> he said, <quote rend="blockquote"> 
+<p>
+
+<milestone unit="sentence" n="150" /></p> 
+<p>has done an intellectual work of great value to mankind.
+
+<milestone unit="sentence" n="151" />He knew, as many do not dream or imagine, something of the burden, the care, and anxiety of intellectual toil, and also of the joy and pleasure of its success.</p> 
+<p>
+
+<milestone unit="sentence" n="152" />His death seems untimely, and sometimes we ask why should he be stricken down.
+
+<milestone unit="sentence" n="153" />Though his years seem cut prematurely short, his life was well lived, and his work well done.
+
+<milestone unit="sentence" n="154" />He sought to inspire in the young the great deeds of those who have gone before.</p> 
+<p>
+
+<milestone unit="sentence" n="155" />How nobly he did his work!
+
+<milestone unit="sentence" n="156" />I fear he put too much of his strength into it. Still, through his volumes he speaks and will speak to the young for generations.</p> 
+<p>
+
+<milestone unit="sentence" n="157" />He was brave, patient, sensible, and lovable in the disappointment that came with the loss of sight and broken health.
+
+<milestone unit="sentence" n="158" /><quote rend="blockquote"> 
+<p /><l>Dead he lay among his books,</l> <l>The peace of <name n="God" type="God">God</name> was in his looks.</l></quote></p></quote> </p> 
+<p>
+
+<milestone unit="sentence" n="159" />The following hymn, written by <persName n="Foss,,Sam,Walter,," id="n0309.0001.00001.00110" reg="default:Foss,Sam,Walter,," authname="foss,sam,walter"><foreName full="yes">Sam</foreName> <foreName full="yes">Walter</foreName> <surname full="yes">Foss</surname></persName>, was then sung by the congregation:— <pb id="p.1.20" n="20" /> <quote rend="blockquote"><lg type="stanza" org="uniform" sample="complete"> <l>His were the tales of olden days,</l> <l>Of patriot deeds, in valor's praise;</l> <l>Tales of the men who made us great,</l> <l>And broke our bonds and built the state.</l></lg> <lg type="stanza" org="uniform" sample="complete"> <l>Strong words of hope he scattered wide</l> <l>To many a listening fireside,</l> <l>Of civic worth in days gone by,</l> <l>Of names and fames that will not die.</l></lg> <lg type="stanza" org="uniform" sample="complete"> <l>He told of mighty fames, hard won,</l> <l>To those whose work is but begun;</l> <l>And fed the young heart with the praise</l> <l>Of deathless deeds of deathless days.</l></lg> <lg type="stanza" org="uniform" sample="complete"> <l>With fair romance he gilded truth,</l> <l>And fed the hungering heart of youth,</l> <l>And his strong words new years will see</l> <l>Bloom in strong actions yet to be.</l></lg></quote> </p> 
+<p>
+
+<milestone unit="sentence" n="160" />The exercises closed with the benediction by <persName n="Capen,Doctor,,,," id="n0309.0001.00001.00111" reg="mostcommon:Capen,E.,H.,,:1" authname="capen,e.,h."><roleName n="Doctor" full="yes">Dr.</roleName> <surname full="yes">Capen</surname></persName>, and the organ postlude, <foreign lang="fr">Marche Funebre.</foreign> </p></div2></div1></body></text></TEI.2>
