@@ -137,19 +137,28 @@ class StanfordTagger:
         chunked = self.regex_chunk(tagged, pattern)
         return self.collate_chunks(chunked)
 
+    token_index = 0
+
     def collate_chunks(self, chunks):
+        self.token_index = 0
         entity_tree = {'people': [], 'places': [], 'organizations': [], 'dates': []}
         for c in chunks:
             self.parse_entity(c, entity_tree)
         return entity_tree
 
     def process_node(self, n):
-        entity = ' '.join([child[0] for child in n])
+        group = [child[0] for child in n]
+        entity = ' '.join(group)
         for i in [',', ')']:
             entity = entity.replace(' ' + i, i)
         for j in ['(']:
             entity = entity.replace(j + ' ', j)
-        return entity
+        return entity, len(group)
+
+    def append_entity(self, node, entity_label, entity_tree):
+        entity, index_adv = self.process_node(node)
+        entity_tree[entity_label].append({'name': entity, 'index': self.token_index})
+        self.token_index += index_adv
 
     def parse_entity(self, c, entity_tree):
         """
@@ -161,16 +170,18 @@ class StanfordTagger:
         if hasattr(c, 'label') and c.label:
             label = c.label()
             if label == 'PER':
-                entity_tree['people'].append(self.process_node(c))
+                self.append_entity(c, 'people', entity_tree)
             elif label == 'GEO':
-                entity_tree['places'].append(self.process_node(c))
+                self.append_entity(c, 'places', entity_tree)
             elif label == 'ORG':
-                entity_tree['organizations'].append(self.process_node(c))
+                self.append_entity(c, 'organizations', entity_tree)
             elif label == 'DTT':
-                entity_tree['dates'].append(self.process_node(c))
+                self.append_entity(c, 'dates', entity_tree)
             else:
                 for child in c:
                     self.parse_entity(child, entity_tree)
+        else:
+            self.token_index += 1
 
     def extract_named_entities(self):
         """

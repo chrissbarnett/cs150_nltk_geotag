@@ -1,12 +1,6 @@
-import requests
 from bs4 import BeautifulSoup as Soup
 import json
-import time
 import os
-import urllib.parse
-import copy
-from slugify import slugify
-from os.path import basename
 
 
 class CivilWarScraper:
@@ -16,49 +10,100 @@ class CivilWarScraper:
         self.html_file = './data/texts/civil_war_photos/43922-h.htm'
 
     def read_pages(self):
+        """
+        load the html and read it into our output json structure. Save the json file.
+        :return:
+        """
         self.pages = {}
         soup = self.load_html(self.html_file)
         self.pages = self.get_pages(soup)
         self.persist_pages()
 
     def persist_pages(self):
+        """
+        write the pages json file
+        :return:
+        """
         path = os.path.join(self.target_dir, 'pages.json')
         self.write_json(self.pages, path)
 
     def write_json(self, map, path):
+        """
+        write a json file from a python dictionary
+        :param map:
+        :param path:
+        :return:
+        """
         with open(path, 'w') as f:
             f.write(json.dumps(map, ensure_ascii=False))
 
     def load_html(self, path):
+        """
+        open a locally saved html file and return a BeautifulSoup object
+        :param path:
+        :return:
+        """
         html = ''
         with open(path, 'rb') as f:
             html = f.read()
         return Soup(html, 'html.parser')
 
     def get_page_id(self, span):
+        """
+        gets the id from a nested anchor tag. document specific.
+        :param span:
+        :return:
+        """
         return span.find('a').get('id')
 
     def parse_text(self, soup):
+        """
+        decides how to parse an element passed in. document specific
+        :param soup:
+        :return:
+        """
+        # if the element is an hr element, skip it
         if soup.name in ['hr']:
             return {}
+
+        # if the element is a p element, process it if it has class 'indent'
         if soup.name == 'p':
             if 'indent' in soup.get('class'):
                 text = soup.get_text()
-                text = text.replace('\n', ' ').replace('\r', ' ').replace('  ', ' ')
+
+                # removing extra whitespace, making sure emdashes have space around them for proper tokenization
+                text = text.replace('\n', ' ').replace('\r', ' ').replace('—', ' — ').replace('  ', ' ')
+
+                # make sure that there is a space at the end of a sentence, to prevent segmentation issues
+                if not text.endswith(' '):
+                    text = text + ' '
                 # print(text)
                 return {'text': text}
         elif soup.name == 'div':
+            # image captions are in a child div with class 'caption'
             caption = soup.find('div', 'caption')
             if caption is not None:
                 text = caption.get_text()
-                text = text.replace('\r\n', ' ').replace('\n\n', '\n')
+
+                # removing extra whitespace, making sure emdashes have space around them for proper tokenization
+                text = text.replace('\r\n', ' ').replace('\n\n', '\n').replace('—', ' — ')
                 text = text.lstrip('\n')
+
+                # ideally, we would process caption titles differently, but we're adding a period just to make sure
+                # titles don't get concatenated with the following sentence.
                 text = text.replace('\n', '. ').replace('  ', ' ')
                 return {'caption': text}
         return {}
 
     def get_pages(self, soup):
+        """
+        pulls 'pages' from the html book, parses out captions and text, stuffs the result into a dictionary. document
+        specific
+        :param soup:
+        :return:
+        """
         page_idx = 0
+        # each page in the book begins with a span element with class 'pagenum'
         firstpage = soup.find('span', 'pagenum')
         m = firstpage.parent
         pages = {
@@ -92,23 +137,6 @@ class CivilWarScraper:
             except AttributeError as e:
                 break
         return pages
-
-    def get_paragraphs(self):
-        for k, v in self.pages.items():
-            page = Soup(v['html'], 'html.parser')
-            text = page.get_text()
-            text = text.replace('\n', ' ').replace('\r', ' ').replace('  ', ' ')
-
-            v['text'] = text
-        self.persist_pages()
-
-    def write_page_json(self):
-        for k, v in self.contents.items():
-            chapter = copy.deepcopy(v)
-            soup = self.load_html(v.get('file_path'))
-            chapter['textmap'] = self.get_text_map(soup)
-            path = os.path.join(self.target_dir, basename(v.get('file_path')).replace('.html', '.json'))
-            self.write_json(chapter, path)
 
 
 

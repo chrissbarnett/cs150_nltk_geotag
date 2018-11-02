@@ -7,7 +7,7 @@ from ner_tagger import NERTagger
 from stanford_ner_tagger import StanfordTagger
 
 
-class TextTagger:
+class FrankensteinTextTagger:
     """
     Tag a structured text with named entities
     """
@@ -75,6 +75,73 @@ class TextTagger:
                 key = 'entities_stanford'
 
             txt['textmap'][k][key] = entities
+        suffix = '.tagged.json'
+        if path.endswith('.tagged.json'):
+            suffix = '.json'
+        self.write_json(path[:-5] + suffix, txt)
+
+    def process_text(self, raw_text):
+        self.tagger.set_text(raw_text=raw_text)
+        return self.tagger.extract_named_entities()
+
+
+class CivilWarTextTagger:
+    """
+    Tag a structured text with named entities
+    """
+    def __init__(self, use_stanford=True):
+        # by default, use the StanfordTagger
+        self.use_stanford = use_stanford
+        if use_stanford:
+            self.tagger = StanfordTagger()
+        else:
+            self.tagger = NERTagger()
+
+    def load_json(self, path):
+        json_txt = ''
+        with open(path, 'r') as f:
+            json_txt = f.read()
+        return json.loads(json_txt)
+
+    def write_json(self, path, json_dict):
+        with open(path, 'w') as f:
+            f.write(json.dumps(json_dict, ensure_ascii=False))
+
+    def tag_text(self, path):
+        """
+        tag text with extracted entities
+        :param path:
+        :return:
+        """
+        txt = self.load_json(path)
+
+        # use a copy so we aren't modifying an object as we iterate over it
+        txt_copy = copy.deepcopy(txt)
+
+        # process the text
+        for k, v in txt_copy.items():
+            # process text
+            entities = self.process_text(v.get('text'))
+            key = 'entities'
+
+            # store stanford entities with a different key
+            if self.use_stanford:
+                key = 'entities_stanford'
+
+            txt[k][key] = entities
+
+            # processing captions separately, in case we just want to do pictures plus captions
+            # process captions
+
+            cap_entities = self.process_text(v.get('caption'))
+            key = 'cap_entities'
+
+            # store stanford entities with a different key
+            if self.use_stanford:
+                key = 'cap_entities_stanford'
+
+            txt[k][key] = cap_entities
+
         suffix = '.tagged.json'
         if path.endswith('.tagged.json'):
             suffix = '.json'

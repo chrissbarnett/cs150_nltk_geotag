@@ -79,6 +79,13 @@ class NERTagger:
         """
         return nltk.ne_chunk_sents(pos_tagged)
 
+    token_index = 0
+
+    def append_entity(self, node, entity_label, entity_tree):
+        group = [child[0] for child in node]
+        entity_tree[entity_label].append({'name': ' '.join(group), 'index': self.token_index})
+        self.token_index += len(group)
+
     def parse_entity(self, c, entity_tree):
         """
         recursively parse the tree structure from the chunker, placing Named Entities in an entities dict.
@@ -89,16 +96,19 @@ class NERTagger:
         if hasattr(c, 'label') and c.label:
             label = c.label()
             if label == 'PERSON':
-                entity_tree['people'].append(' '.join([child[0] for child in c]))
+                self.append_entity(c, 'people', entity_tree)
             elif label == 'GPE':
-                entity_tree['places'].append(' '.join([child[0] for child in c]))
+                self.append_entity(c, 'places', entity_tree)
             elif label == 'ORGANIZATION':
-                entity_tree['organizations'].append(' '.join([child[0] for child in c]))
+                self.append_entity(c, 'organizations', entity_tree)
             else:
                 for child in c:
                     self.parse_entity(child, entity_tree)
+        else:
+            self.token_index += 1
 
     def build_entities(self, chunk_iter):
+        self.token_index = 0
         entity_tree = {'people': [], 'places': [], 'organizations': []}
         for c in chunk_iter:
             self.parse_entity(c, entity_tree)

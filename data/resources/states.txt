@@ -1,0 +1,36 @@
+Alabama, AL
+Arkansas, AR
+California, CA
+Connecticut, CT
+Delaware, DE
+Florida, FL
+Georgia, GA
+Illinois, IL
+Indiana, IN
+Iowa, IA
+Kansas, KS
+Kentucky, KY
+Louisiana, LA
+Maine, ME
+Maryland, MD
+Massachusetts, MA
+Michigan, MI
+Minnesota, MN
+Mississippi, MS
+Missouri, MO
+Nevada, NV
+New Hampshire, NH
+New Jersey, NJ
+New York, NY
+North Carolina, NC
+Ohio, OH
+Oregon, OR
+Pennsylvania, PA
+Rhode Island, RI
+South Carolina, SC
+South Dakota, SD
+Tennessee, TN
+Texas, TX
+Vermont, VT
+Virginia, VA
+Wisconsin, WI
