@@ -269,6 +269,18 @@ class CivilWarGeocoder:
         self.get_remainder_result_sets()
         self.narrow_results()
         self.select_places()
+        self.persist_places()
+
+    def recode(self):
+        self.load_pages()
+        self.clear_ignores()
+        self.persist_pages()
+        self.geocode()
+
+    def rescore(self):
+        self.load_pages()
+        self.select_places()
+        self.persist_places()
 
     def get_geonames_cache_key(self, name, fcodes=None):
         if fcodes is not None:
@@ -452,7 +464,7 @@ class CivilWarGeocoder:
             candidate = copy.deepcopy(base_candidate_list)
             for i, r in enumerate(candidates['results']):
                 candidate.append(r[counter[i]])
-            score = self.score_candidate(candidate)
+            score = self.score_candidate(candidate, sum(counter))
             if score > places['score']:
                 places['places'] = candidate
                 places['score'] = score
@@ -475,7 +487,10 @@ class CivilWarGeocoder:
 
         return places
 
-    def score_candidate(self, candidate_list):
+    def score_candidate(self, candidate_list, depth):
+        list_len = len(candidate_list)
+        if list_len == 0:
+            return 0
         countries = set()
         states = set()
         for c in candidate_list:
@@ -483,7 +498,7 @@ class CivilWarGeocoder:
                 countries.add(c['countryCode'])
             if 'adminCode1' in c:
                 states.add(c['adminCode1'])
-        return len(candidate_list) / max([len(countries) + len(states), 1])
+        return list_len / max([len(countries) + len(states), 1]) / (depth + list_len)
 
     def select_places(self):
         """
@@ -515,20 +530,6 @@ class CivilWarGeocoder:
         self.places = places
         return places
 
-    def write_geojson(self):
-        for k, v in self.places.items():
-            print(k)
-            if 'places' in v and v['places'] is not None:
-                for p in v['places']:
-                    print(p['name'])
-                    if 'bbox' in p:
-                        print(p['bbox'])
-                    else:
-                        if 'lat' in p:
-                            print((p['lat'], p['lng']))
-                        else:
-                            print(p)
-
     def persist_places(self):
         with open('./data/texts/civil_war_photos/places.json', 'w') as f:
             f.write(json.dumps(self.places, ensure_ascii=False))
@@ -556,10 +557,10 @@ class CivilWarGeocoder:
         # ignore any place entities that have a match in the list of last names.
         for k, v in self.pages.items():
             for p in v['entities_stanford']['places']:
-                if p.name.lower() in last_names:
+                if p['name'].lower() in last_names:
                     p['ignore'] = True
             for p in v['cap_entities_stanford']['places']:
-                if p.name.lower() in last_names:
+                if p['name'].lower() in last_names:
                     p['ignore'] = True
 
     def match_person_name(self, person_name):

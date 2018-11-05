@@ -7,27 +7,32 @@
         var defaults = {
             selector: '[data-place]',
             breakpointPos: '33.333%',
-            createMap: function () {
-                // create a map in the "map" div, set the view to a given place and zoom
-                var map = L.map('map').setView([65, 18], 5);
-
-                // add an OpenStreetMap tile layer
-                L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-                    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                }).addTo(map);
-
-                return map;
-            }
+            maxZoom: 5,
+            features: {},
+            feature_options: {}
         };
 
         var settings = $.extend(defaults, options);
 
-
         if (typeof(L) === 'undefined') {
-            throw new Error('Storymap requires Laeaflet');
+            throw new Error('Storymap requires Leaflet');
         }
         if (typeof(_) === 'undefined') {
             throw new Error('Storymap requires underscore.js');
+        }
+
+        function createMap(){
+            // create a map in the "map" div, set the view to a given place and zoom
+            var map = L.map('map').setView([0,0], settings.maxZoom);
+
+            // add CartoDB basemap
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+	            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	            subdomains: 'abcd',
+	            maxZoom: 19
+            }).addTo(map);
+
+            return map;
         }
 
         function getDistanceToTop(elem, top) {
@@ -97,9 +102,8 @@
                 $(this).removeClass('viewing');
             });
 
-            watchHighlight(element, searchfor, top);
 
-            var map = settings.createMap();
+            var map = createMap();
 
             var initPoint = map.getCenter();
             var initZoom = map.getZoom();
@@ -108,18 +112,54 @@
 
             function showMapView(key) {
 
+                var feature = settings.features[key];
+
                 fg.clearLayers();
                 if (key === 'overview') {
                     map.setView(initPoint, initZoom, true);
-                } else if (markers[key]) {
-                    var marker = markers[key];
-                    var layer = marker.layer;
-                    if(typeof layer !== 'undefined'){
-                      fg.addLayer(layer);
-                    };
-                    fg.addLayer(L.marker([marker.lat, marker.lon]));
+                } else if (feature) {
 
-                    map.setView([marker.lat, marker.lon], marker.zoom, 1);
+                    var zoom = settings.maxZoom;
+
+                    if (_.has(settings.feature_options, key)){
+
+                        if (_.has(settings.feature_options[key], 'layer')){
+                            var layer = settings.feature_options[key].layer;
+
+                            if(typeof layer !== 'undefined'){
+                                fg.addLayer(layer);
+                            }
+                        }
+
+                        if (_.has(settings.feature_options[key], 'maxZoom')) {
+
+                            zoom = settings.feature_options[key].maxZoom;
+                        }
+
+                    }
+
+                    var onEachFeature = function(feature, layer) {
+                        // does this feature have a property named popupContent?
+                        if (feature.properties && feature.properties.name) {
+                            var popup = '<div class="popup">';
+                            if (feature.properties.adm1) {
+                                popup += '<div>' + feature.properties.name + ', ' + feature.properties.adm1 + '</div>';
+                            } else {
+                                popup += '<div>' + feature.properties.name + '</div>';
+                            }
+                            popup += '<div>' + feature.properties.countryCode + '</div>';
+                            popup += '<div>Feature Code: ' + feature.properties.featureCode + '</div>';
+                            popup += '</div>';
+
+                            layer.bindPopup(popup);
+                        }
+                    };
+
+                    fg.addLayer(L.geoJSON(feature, {'onEachFeature': onEachFeature}));
+
+                    var bounds = fg.getBounds();
+                    map.fitBounds(bounds, { maxZoom: zoom });
+
                 }
 
             }
@@ -127,6 +167,9 @@
             paragraphs.on('viewing', function () {
                 showMapView($(this).data('place'));
             });
+
+            watchHighlight(element, searchfor, top);
+
         };
 
         makeStoryMap(this, settings.markers);
